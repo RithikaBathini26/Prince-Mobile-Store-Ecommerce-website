@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+    <display-name>Mobile Store Application</display-name>
+    
+    <resource-ref>
+        <description>MySQL Datasource</description>
+        <res-ref-name>jdbc/mobile_store</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>register.jsp</welcome-file>
+        <welcome-file>admindashboard.jsp</welcome-file>
+        <welcome-file>userdashboard.jsp</welcome-file>
+        <welcome-file>product.jsp</welcome-file>
+        <welcome-file>cart.jsp</welcome-file>
+        <welcome-file>wishlist.jsp</welcome-file>
+    </welcome-file-list>
+
+    
+
+</web-app>
